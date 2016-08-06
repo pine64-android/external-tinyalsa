@@ -250,6 +250,9 @@ int pcm_wait(struct pcm *pcm, int timeout);
  */
 int pcm_set_avail_min(struct pcm *pcm, int avail_min);
 
+int pcm_get_node_number(char *name);
+
+
 /*
  * MIXER API
  */
